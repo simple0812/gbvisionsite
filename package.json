@@ -1,0 +1,22 @@
+{
+    "name": "gbvision",
+    "version": "3.0",
+    "description": "GBVISION Version 3.0",
+    "author": "kongxianghai songkang, zhanglei, chenxincong",
+    "dependencies": {
+        "archiver": "^2.1.0",
+        "blueimp-md5": "^2.10.0",
+        "debug": "^3.1.0",
+        "esp": "0.1.16",
+        "filesize": "^3.5.11",
+        "fluent-ffmpeg": "^2.1.2",
+        "formidable": "^1.1.1",
+        "mkdirp": "^0.5.1",
+        "moment": "2.4.0",
+        "node-html-encoder": "0.0.2",
+        "node-uuid": "^1.4.8",
+        "sqlite3": "^3.1.13",
+        "underscore": "^1.8.3",
+        "winston": "^2.4.0"
+    }
+}
