@@ -3,7 +3,7 @@ User = require '../model/user'
 BoxUnionUser = require '../model/boxunionuser'
 _ = require 'underscore'
 logger = require '../model/logger'
-md5 = require('blueimp-md5').md5
+md5 = require('blueimp-md5')
 
 
 esp.route ->
