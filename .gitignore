@@ -8,3 +8,4 @@ files/log/log*
 files/media/*
 files/package/*
 public/Screenshots/*
+package-lock.json

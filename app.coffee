@@ -38,7 +38,7 @@ logger.level 'error'
 #esp.server.debug = (req, res)->
 #  logger.debug   "发生请求 #{decodeURIComponent(req.url)} 成功", {'action': logger.action.request, 'source': logger.source.url}
 
-esp.auth '/login', -> User.find @cookie.token if @cookie?.token?
+# esp.auth '/login', -> User.find @cookie.token if @cookie?.token?
 
 serviceManager.run()
 
