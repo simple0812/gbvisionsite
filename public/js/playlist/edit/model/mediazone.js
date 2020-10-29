@@ -5,7 +5,7 @@ function MediaZone( left, top, right, bottom, tag, background, border, id, name,
     this.name = name || this.createName();
     this.coverLevel = 1;
     this.border = border || 'blue';
-    this.background = {color:'#ff000000', image:''} //'#ff000000';
+    this.background = {color:'#000000', image:''} //'#ff000000';
     this.duration = duration || '00:00:00';
     this.tag = tag || '媒体区';
     this.playlist = playlist || null;
@@ -31,6 +31,7 @@ MediaZone.prototype.render = function() {
     ctx.scale(RATIO, RATIO);
     ctx.globalAlpha = this.opacity;
     ctx.fillStyle = this.background.color;
+
     //ctx.lineWidth = 2;
     //ctx.strokeStyle = this.border;
     ctx.fillRect(this.left, this.top, this.right - this.left,this.bottom - this.top);

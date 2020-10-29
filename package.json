@@ -3,6 +3,9 @@
     "version": "3.0",
     "description": "GBVISION Version 3.0",
     "author": "kongxianghai songkang, zhanglei, chenxincong",
+    "scripts": {
+        "start": "coffee app.coffee"
+    },
     "dependencies": {
         "archiver": "^2.1.0",
         "blueimp-md5": "^2.10.0",
